@@ -1,0 +1,168 @@
+body{
+  background: #a7a5c6;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  width: 70%;
+  margin-left: 200px;
+}
+.logo{
+float: left;
+font-family: 'Lobster', cursive;
+padding-left: 60px;
+color: white;
+font-size: 25px;
+}
+
+header{
+  position: fixed;
+  width: 70%;
+  top: 0px;
+}
+
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: #0c0a3e;
+  box-shadow: 2px 2px 5px black;
+}
+li{
+  float: right;
+}
+li a{
+  text-decoration: none;
+  padding: 29px 16px;
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+li a:hover{
+  border-top: 2px solid #eee;
+  color: white;
+  border-bottom: 2px solid #eee;
+}
+.active{
+  border-bottom: 2px solid #eee;
+  border-top: 2px solid #eee;
+}
+section{
+  background: #e0e0e2;
+  width: 100%;
+  margin-top: 2px;
+}
+.pic{
+  border-radius: 100%;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.about{
+  margin-top: 85px;
+  color: black;
+  font-size: 30px;
+  padding: 50px 30px 40px 50px;
+  line-height: 150%;
+  font-family: 'Kalam', cursive;
+}
+
+.portfolio{
+  font-family: 'Kalam', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 250px;
+}
+
+.contact{
+  font-family: 'Kalam', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.form{
+  padding-left: 50px;
+  padding-bottom: 3px;
+}
+input[type=text]{
+  width: 40%;
+  padding: 14px 14px;
+  background: none;
+  border-bottom: 1px solid #000;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+textarea{
+  width: 42.5%;
+  padding: 14px 14px;
+  background: none;
+  border-bottom: 1px solid #000;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+button{
+  width: 12%;
+  padding: 8px 8px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  cursor: hand;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.fright{
+  margin-left: 55px;
+  margin-right: 55px;
+  line-height: 180%;
+}
+footer{
+  background: #0c0a3e;
+  padding: 14px 16px;
+  margin-top: 30px;
+}
+i{
+  color: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 11px 11px;
+}
+
+small{
+  color: white;
+}
+
+.ceo{
+  text-decoration: none;
+  color: white;
+}
+.tlogo{
+  text-decoration: none;
+  color: white;
+}
+
+div.gallery{
+  width: 350px;
+  margin-left: 65px;
+  border: 1px solid #ccc;
+  }
+
+div.gallery:hover {
+    border: 1px solid #777;
+    padding: 2px 2px;
+}
+
+div.gallery img {
+    width: 350px;
+    height: 250px;
+}
+
+.fa:hover {
+  background: white;
+  color: #0c0a3e;
+  transition: .3s;
+}
