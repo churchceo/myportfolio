@@ -5,6 +5,7 @@ body{
   width: 70%;
   margin-left: 200px;
 }
+
 .logo{
 float: left;
 font-family: 'Lobster', cursive;
@@ -27,9 +28,11 @@ ul{
   background: #0c0a3e;
   box-shadow: 2px 2px 5px black;
 }
+
 li{
   float: right;
 }
+
 li a{
   text-decoration: none;
   padding: 29px 16px;
@@ -37,26 +40,34 @@ li a{
   font-size: 20px;
   color: white;
 }
+
 li a:hover{
   border-top: 2px solid #eee;
   color: white;
   border-bottom: 2px solid #eee;
 }
+
 .active{
   border-bottom: 2px solid #eee;
   border-top: 2px solid #eee;
 }
+
 section{
-  background: #e0e0e2;
+  background: #fff;
   width: 100%;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 4px;
   margin-top: 2px;
 }
+
 .pic{
   border-radius: 100%;
   float: right;
   margin-right: 20px;
   margin-top: 10px;
+  border: .1em solid #a7a5c6;
 }
+
 .about{
   margin-top: 85px;
   color: black;
@@ -85,6 +96,7 @@ section{
   padding-left: 50px;
   padding-bottom: 3px;
 }
+
 input[type=text]{
   width: 40%;
   padding: 14px 14px;
@@ -96,6 +108,7 @@ input[type=text]{
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
 }
+
 textarea{
   width: 42.5%;
   padding: 14px 14px;
@@ -107,6 +120,7 @@ textarea{
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
 }
+
 button{
   width: 12%;
   padding: 8px 8px;
@@ -115,16 +129,19 @@ button{
   cursor: hand;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
 .fright{
   margin-left: 55px;
   margin-right: 55px;
   line-height: 180%;
 }
+
 footer{
   background: #0c0a3e;
   padding: 14px 16px;
   margin-top: 30px;
 }
+
 i{
   color: white;
   border: 1px solid white;
@@ -140,6 +157,7 @@ small{
   text-decoration: none;
   color: white;
 }
+
 .tlogo{
   text-decoration: none;
   color: white;
