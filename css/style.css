@@ -71,6 +71,7 @@ article{
 
 .about{
   margin-top: 100px;
+  margin-bottom: 0px;
   color: black;
   font-size: 30px;
   padding: 30px 10px 40px 80px;
@@ -84,6 +85,7 @@ article{
   text-align: center;
   padding-top: 15px;
   padding-left: 250px;
+  margin-top: 15px;
 }
 
 .contact{
@@ -91,6 +93,7 @@ article{
   font-size: 30px;
   text-align: center;
   padding-top: 15px;
+  margin-top: 15px;
 }
 
 .form{
@@ -171,16 +174,14 @@ small{
 div.gallery{
   width: 350px;
   margin-left: 65px;
-  border: 1px solid #ccc;
   }
 
 div.gallery:hover {
-    border: 1px solid #777;
-    padding: 2px 2px;
-    cursor: pointer;
+    opacity: 0.9;
 }
 
 div.gallery img {
+    padding-bottom: 40px;
     width: 350px;
     height: 250px;
 }
