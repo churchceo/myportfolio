@@ -172,7 +172,7 @@ small{
 }
 
 div.gallery{
-  width: 350px;
+  width: 300px;
   margin-left: 65px;
   }
 
@@ -182,8 +182,8 @@ div.gallery:hover {
 
 div.gallery img {
     padding-bottom: 40px;
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    height: auto;
 }
 
 .fa:hover {
